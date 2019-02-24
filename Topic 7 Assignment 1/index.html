@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+	  Topic 7 Assignment 1
+	</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <input id="getText" type="text" class="col-xs-8" placeholder="Enter the text to be encoded"><br><br>
+	<button class="btn btn-primary" onclick="myEncoder(document.getElementById('getText').value)">Encode</button><br><br>
+	<div id="output" class="col-md-8">Your Output will appear here.</div>
+	<script>
+      function myEncoder(input) {
+        var encoded = encodeURIComponent(input);
+        document.getElementById("output").innerHTML = encoded;
+      }
+</script>
+  </body>
+</html>

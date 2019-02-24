@@ -1,0 +1,60 @@
+body {
+	padding-left: 10px;
+	padding-top: 10px;
+	color: white;
+}
+
+.divTable {
+	display: table;
+	width: auto;
+	background-color: black;
+}
+
+.rowElement, .rowHeading {
+	display: table-row;
+	width: auto;
+	padding: 5px;
+}
+
+.rowElement:nth-child(odd) {
+    background-color: #696969;
+}
+
+.rowElement:hover {
+	background-color: gray;
+}
+
+.telement {
+	padding: 5px;
+	display: table-column;
+	width: 200px;
+	float: left;
+	border-bottom: 1px solid gray;
+}
+
+.theading {
+    padding: 5px;
+	display: table-column;
+	width: 200px;
+	float: left;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+}
+
+.tnumber {
+	font-weight: bold;
+	width: 50px;
+}
+
+p {
+	color: black;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}

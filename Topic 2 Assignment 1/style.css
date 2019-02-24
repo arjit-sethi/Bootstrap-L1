@@ -1,0 +1,10 @@
+body {
+	padding-left: 10px;
+}
+
+span {
+	font-size: 50px;
+	color: red;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 100;
+}

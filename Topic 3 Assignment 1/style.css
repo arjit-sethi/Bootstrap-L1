@@ -1,0 +1,26 @@
+body {
+	padding-left: 10px;
+	font-size: 40px;
+}
+
+.divTable {
+	border: 2px solid red;
+	display: table;
+	width: auto;
+}
+
+.rowElement {
+	display: table-row;
+	width: auto;
+}
+
+.rowElement:nth-child(odd) {
+    background-image: url("image.jpg");
+}
+
+.telement {
+	display: table-column;
+	width: 300px;
+	float: left;
+	border: 1px solid blue;
+}
